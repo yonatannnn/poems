@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(185, 166, 41, 0.7);
+}
+
+.container{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DB{
+    background-color: bisque;
+    width: 200px;
+    height: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+
+.DB:hover{
+    background-color: brown;
+    color: white;
+}
+
+#Dpoems{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.title_opener{
+    color: black;
+    font-size: large;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+#title_opener{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 25px;
+    transition: width 1s;
+}
+
+#title_opener:hover{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+
+.additional{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 25px;
+    transition: width 1s;
+}
+.additional:hover{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}

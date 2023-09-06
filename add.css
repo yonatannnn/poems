@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.add_poem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border: 2px double black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+}
+
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+    background-color: rgb(11, 202, 138);
+    color: rgb(175, 20, 20);
+    font-size: large;
+}
+
+.poem_input:focus {
+    width: 300px;
+    height: fit-content;
+}
+
+#poem_input{
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+}
+
+.add_button{
+    width: 80px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.add_button:hover{
+    background-color: brown;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.AD{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}

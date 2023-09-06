@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DELETE</title>
+    <link rel="stylesheet" href="Delete.css">
+
+</head>
+<body>
+    <div class = "container" >
+        which poem do you want to delete
+        <div class = title_opener><button id = "title_opener" onclick="deletedTitles()">click here</button> to choose.</div>
+        <div id = "Dpoems">
+        </div>
+        <div class = "button_container" >
+            <a href="add_poem.html"> <button class = "additional">ADD</button> </a>
+            <a href="delete_poem.html"> <button class = "additional">DELETE</button> </a>
+        </div>
+    </div>
+
+    <script src="poem.js">
+        window.onload = deletedTitles;
+    </script>
+</body>
+</html>
